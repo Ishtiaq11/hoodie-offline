@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  web:
+    image: offline-hoodie-app
+    build: .
+    ports:
+      - "8080:5555"
+    volumes:
+    - ./public:/usr/src/app/public

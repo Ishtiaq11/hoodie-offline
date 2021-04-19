@@ -16,10 +16,9 @@ But really it’s my attempt to put LA on the sweet.js map!
 ## Local Setup
 
 ```
-git clone https://github.com/gr2m/sweet.la.git
-cd sweet.la
-npm install
-npm start
+git clone https://github.com/Ishtiaq11/hoodie-offline
+cd hoodie-offline
+docker-compose up -d
 ```
 
 ## License
