@@ -20,6 +20,7 @@ git clone https://github.com/Ishtiaq11/hoodie-offline
 cd hoodie-offline
 docker-compose up -d
 ```
+Check http://localhost:8080
 
 ## License
 
