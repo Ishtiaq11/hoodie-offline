@@ -1,8 +1,4 @@
-# sweet.la
-> js.la Dem Sugar!
-
-Portland has [Donut.js](https://donutjs.club/), San Francisco has [Waffle.js](https://wafflejs.com/).
-But watcha got, LA?
+# Hoodie Offline App
 
 ## About this app
 
