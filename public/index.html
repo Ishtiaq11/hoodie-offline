@@ -99,11 +99,13 @@
       hoodie.store.on('pull', renderItems)
 
       hoodie.connectionStatus.on('disconnect', () => {
+        console.log('disconnected')
         document.documentElement.style.filter = 'grayscale(100%)'
         document.documentElement.style.background = '#eee'
       })
 
       hoodie.connectionStatus.on('reconnect', () => {
+        console.log('reconnected!!!!!!!!!!')
         document.documentElement.style.filter = 'grayscale(100%)'
         document.documentElement.style.background = '#E8DC6B'
       })
