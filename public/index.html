@@ -16,7 +16,7 @@
         text-align: center;
       }
       html {
-        background: #E8DC6B;
+        background: #eee381;
         color: #0A0B09;
         font-family: Helvetica, Arial;
         font-size: 2em;
@@ -100,14 +100,16 @@
 
       hoodie.connectionStatus.on('disconnect', () => {
         console.log('disconnected')
+        alert('YOU ARE NOW OFFLINE')
         document.documentElement.style.filter = 'grayscale(100%)'
         document.documentElement.style.background = '#eee'
       })
 
       hoodie.connectionStatus.on('reconnect', () => {
         console.log('reconnected!!!!!!!!!!')
+        alert('BACK ONLINE')
         document.documentElement.style.filter = 'grayscale(100%)'
-        document.documentElement.style.background = '#E8DC6B'
+        document.documentElement.style.background = '#eee381'
       })
 
       hoodie.connectionStatus.startChecking({interval: 1000})
